@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --gray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--gray);
+    margin: 0;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+    padding: 30px 30px 100px;
+    border-radius: 20px;
+}
+
+.qrcode{
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+h1{
+    max-width: 400px;
+}
+p{
+    max-width: 400px;
+    font-size: 15px;
+    color: var(--grayishBlue);
+}
+.githubicon{
+    width: 20px;
+    margin-left: 10px;
+}
+a{
+    font-style: none;
+}
+a:hover{
+    border-color: solid black;
+}
